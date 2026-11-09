@@ -1,0 +1,16 @@
+build/
+*.class
+__pycache__/
+.venv/
+.metadata/
+.settings/
+.classpath
+.project
+.env
+.env.*
+data/
+artifacts/
+*.jks
+*.keystore
+*.pkl
+*.joblib
