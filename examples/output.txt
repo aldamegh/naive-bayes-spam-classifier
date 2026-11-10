@@ -1,0 +1,13 @@
+Synthetic training messages
+  HAM   project meeting
+  HAM   team meeting
+  SPAM  win prize
+  SPAM  claim prize
+
+Predictions (log scores + Laplace smoothing)
+  team project         -> HAM
+  win claim prize      -> SPAM
+  meeting              -> HAM
+  prize                -> SPAM
+
+Toy examples only; no real-email accuracy is measured.

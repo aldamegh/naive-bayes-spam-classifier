@@ -2,6 +2,22 @@
 
 A Python multinomial Naive Bayes coursework implementation with class priors, word-frequency models, optional Laplace smoothing, direct/log probability scoring, and an F1 helper.
 
+## Example walkthrough
+
+`HAM` is class 0 and `SPAM` is class 1. The four tiny training messages and every prediction are visible. This demonstrates the mechanics; it is not a real-email accuracy or F1 result.
+
+![Synthetic example output](docs/demo-output.svg)
+
+Run from the repository root. For Java, create `build` if it does not already exist:
+
+```sh
+python examples/demo.py
+```
+
+[Runnable example](examples/) · [Plain-text output](examples/output.txt)
+
+The example and output visual were added for this portfolio in November 2026 using newly authored synthetic inputs. They are separate from the original coursework.
+
 ## Course and original date
 
 - **Course / المادة:** CSC 484 - Information Retrieval / استرجاع المعلومات, King Saud University.
